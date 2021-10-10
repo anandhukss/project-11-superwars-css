@@ -1,4 +1,56 @@
-.footer{
+/* .footer{
   margin-left : 80px;
   font-size : 18px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 80vh;
+    margin: 50px auto;
+    background-color: rgb(226, 216, 216);
+    padding-top: 10px;
+    box-shadow: 10px 10px 8px 3px #888888;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+}
+
+.score {
+    font-size: 30px;
+}
+
+.hero {
+    display: flex;
+}
+
+.villain {
+    display: flex;
+}
+
+.hero1,
+.hero2 {
+    padding: 16px;
+    height: 250px;
+    margin: 0 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.villain1,
+.villain2 {
+    padding: 16px;
+    height: 250px;
+    margin: 0 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.strength {
+    font-size: 2rem;
 }
